@@ -9,9 +9,9 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-slate-50">
-      <section className="mx-auto max-w-6xl px-6 pb-24 pt-24">
-        <div className="rounded-[32px] border border-slate-200 bg-white p-10 shadow-sm lg:p-16">
-          <div className="space-y-10">
+      <section className="mx-auto max-w-6xl px-4 pb-20 pt-20 sm:px-6 sm:pb-24 sm:pt-24">
+        <div className="rounded-[32px] border border-slate-200 bg-white p-6 shadow-sm sm:p-10 lg:p-16">
+          <div className="space-y-8 sm:space-y-10">
             <header className="space-y-4">
               <h2 className="mb-2 text-sm font-semibold uppercase tracking-[0.18em] text-slate-900">
                 Hakkımızda

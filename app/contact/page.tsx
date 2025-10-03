@@ -23,10 +23,9 @@ const offices = [
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-slate-50">
-
-      <section className="mx-auto grid max-w-6xl gap-12 pt-24 px-6 pb-24 lg:grid-cols-[1fr_1fr]">
+      <section className="mx-auto grid max-w-6xl gap-10 px-4 pb-20 pt-20 sm:gap-12 sm:px-6 sm:pb-24 sm:pt-24 lg:grid-cols-[1fr_1fr]">
         <div className="space-y-8">
-          <div className="rounded-[28px] border border-slate-200 bg-white p-10 shadow-sm">
+          <div className="rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm sm:p-10">
             <h2 className="text-2xl font-semibold text-slate-900">İletişim Bilgileri</h2>
             <p className="mt-4 text-base text-slate-600">
               Çözümlerimiz hakkında daha fazla bilgi edinmek veya özel ihtiyaçlarınızı tartışmak için bizimle iletişime geçin.
@@ -34,7 +33,7 @@ export default function ContactPage() {
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-1">
             {offices.map((office) => (
-              <div key={office.title} className="rounded-[24px] border border-slate-200 bg-white p-6 shadow-sm">
+              <div key={office.title} className="rounded-[24px] border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
                 <h3 className="text-lg font-semibold text-slate-900">{office.title}</h3>
                 <dl className="mt-4 space-y-3 text-sm text-slate-600">
                   <div>
@@ -50,7 +49,7 @@ export default function ContactPage() {
             ))}
           </div>
         </div>
-        <div className="self-start rounded-[32px] border border-slate-200 bg-white p-10 shadow-sm">
+        <div className="self-start rounded-[32px] border border-slate-200 bg-white p-6 shadow-sm sm:p-10">
           <h2 className="text-2xl font-semibold text-slate-900">Bize Ulaşın</h2>
           {/* <p className="mt-4 text-base text-slate-600">
             Fill in the essentials and we&apos;ll line up the right experts before our first call.
